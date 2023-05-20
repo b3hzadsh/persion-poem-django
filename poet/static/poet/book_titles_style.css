@@ -1,0 +1,14 @@
+.grid {
+    /* align-items: center; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    row-gap: 9px;
+    column-gap: 12px;
+    justify-content: center;
+    width: 80%;
+}
+
+.element { 
+    justify-content: center;
+}

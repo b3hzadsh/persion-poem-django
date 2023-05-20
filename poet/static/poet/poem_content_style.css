@@ -1,0 +1,14 @@
+.poet-verse {
+    margin: 2rem auto;
+    width: 95%;
+    max-width: 30rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 15px;
+}
+p {
+    text-align: center;
+    font-size: 40;
+    font-family: "IranNastaliq", "B Yekan", serif;
+    /* font-family: "Times New Roman", Times, serif; */
+}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block header_refrence %}
+     <link rel="stylesheet" href= "{% static 'poet/poem_content_style.css' %}" >
+{% endblock header_refrence %}
+     
+
+{% block page_title %}
+     some thing
+{% endblock page_title %}
+     
+
+{% block content %}
+     <div class="poet-verse">
+          {% for verse in verses %}
+          <p style="text-align: center;font-size: 32;">
+               {{verse.3}}
+          </p>
+          {% endfor %}
+     </div>
+     <div>
+          
+     </div>
+{% endblock content %}
+     
