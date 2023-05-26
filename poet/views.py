@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .db.db_helper import *
+from db.db_helper import *
 
 
 def home_page_view(request):
